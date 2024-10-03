@@ -12,8 +12,8 @@ st.set_page_config(page_title="Analisis Data - Bike Sharing", layout="wide")
 # Fungsi untuk memuat data
 @st.cache
 def load_data():
-    day_df = pd.read_csv('/data/day.csv')
-    hour_df = pd.read_csv('/data/hour.csv')
+    day_df = pd.read_csv('data/day.csv')
+    hour_df = pd.read_csv('data/hour.csv')
     day_df['dteday'] = pd.to_datetime(day_df['dteday'])
     hour_df['dteday'] = pd.to_datetime(hour_df['dteday'])
     return day_df, hour_df
