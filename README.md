@@ -15,7 +15,7 @@ Proyek ini terdiri dari beberapa folder dan file penting, yaitu:
 - File `requirements.txt` berisi daftar dependensi atau pustaka Python yang dibutuhkan untuk menjalankan proyek ini.
 - File `url.txt` berisi tautan URL yang mengarah ke dashboard yang telah dideploy.
 
-## Cara Instalasi
+## Cara Instalasi Melalui Link Github
 
 1. Clone repositori proyek ini ke komputer lokal Anda menggunakan perintah berikut:
 
@@ -33,7 +33,7 @@ Proyek ini terdiri dari beberapa folder dan file penting, yaitu:
    pip install -r requirements.txt
    ```
 
-## Cara Menjalankan
+##### Cara Menjalankan
 
 Menjalankan Dashboard Lokal
 
@@ -42,6 +42,33 @@ Untuk menjalankan dashboard Streamlit secara lokal, jalankan perintah berikut:
 ```
 streamlit run dashboard.py
 ```
+
+Anda juga bisa mengakses versi yang sudah dideploy melalui URL berikut:
+
+[Dashboard yang sudah dideploy](https://app-dashboard-mtuc8jpwft8exmrrvvdhz8.streamlit.app/)
+
+## Cara Instalasi Melalui File ZIP Yang Sudah Terinstall
+
+1. Extract file ZIP yang sudah anda download:
+2. Buka terminal dan masuk ke direktori proyek berdasarkan lokasi file yang sudah di-extract pada komputer anda
+3. Install semua dependensi yang diperlukan menggunakan file `requirements.txt`:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+##### Cara Menjalankan
+
+Menjalankan Dashboard Lokal
+
+Untuk menjalankan dashboard Streamlit secara lokal, jalankan perintah berikut:
+
+1. ```
+   cd dashboard
+   ```
+2. ```
+   streamlit run dashboard.py
+   ```
 
 Anda juga bisa mengakses versi yang sudah dideploy melalui URL berikut:
 
