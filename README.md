@@ -59,4 +59,3 @@ File `notebook.ipynb` berisi eksplorasi data dan analisis awal. Buka file ini me
 - `seaborn`
 - `statsmodels`
 - `streamlit`
-- `numpy`
