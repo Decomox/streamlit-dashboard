@@ -25,7 +25,7 @@ Proyek ini terdiri dari beberapa folder dan file penting, yaitu:
 2. Masuk ke direktori proyek:
 
    ```
-   cd submission
+   cd streamlit-dashboard
    ```
 3. Install semua dependensi yang diperlukan menggunakan file `requirements.txt`:
 
