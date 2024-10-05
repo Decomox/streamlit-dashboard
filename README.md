@@ -8,7 +8,7 @@ Proyek ini merupakan sebuah dashboard interaktif yang dibangun menggunakan bahas
 
 Proyek ini terdiri dari beberapa folder dan file penting, yaitu:
 
-- Folder `dashboard/` berisi file `dashboard.py` yang merupakan skrip utama untuk menjalankan dashboard menggunakan Streamlit.
+- File `dashboard.py` merupakan skrip utama untuk menjalankan dashboard menggunakan Streamlit.
 - Folder `data/` berisi dua file, yaitu `day.csv` dan `hour.csv`, yang digunakan sebagai dataset tambahan untuk analisis lebih lanjut.
 - File `notebook.ipynb` merupakan notebook Jupyter yang digunakan untuk eksplorasi data dan analisis awal.
 - File `README.md` ini berfungsi sebagai dokumentasi proyek.
